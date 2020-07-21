@@ -1,0 +1,50 @@
+
+.nav-user-define-style{
+    background-color: #7f8ac5;
+    height:0;
+    
+}
+
+.btn-user-define-style{
+    
+        color:#0c003a;
+        border-radius:25px;
+        width:100px;
+        height:25px;
+        font-weight:bolder;
+        line-height:0
+   
+}
+
+/* ul:not(.browser-default) {
+    padding-left: 0; 
+    
+} */
+
+@media  (max-width: 994px) {
+     .container,.brand-logo{
+         margin:0;
+     }
+     .container{
+         width: 100%;
+     }
+     nav .brand-logo{
+         left: 7%;
+     }
+     ul{
+         margin-block-end: 0;
+     }
+     nav ul{
+         margin-left: 100px; 
+         width: 500px;
+         float: right;
+         background-color: red;
+         
+     }
+   
+   
+    body {
+      background-color: lightgreen;
+      height: 1000px;
+    }
+  }

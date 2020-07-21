@@ -1,0 +1,54 @@
+.dashboard{
+
+    position: relative;
+}
+
+.navbar{
+    color:red;
+    position: absolute;
+    top:25px;
+    width: 100%;
+
+}
+
+.text-user{
+    position: absolute;
+    top: 230px;
+    left:260px;
+}
+/* 
+style={{fontSize:"4rem",color:"#FFFF",fontWeight:"bolder"}} */
+.heading1{
+
+    font-size: 4rem;
+    color: #ffff;
+    font-weight: bolder;
+}
+
+.sparrow-bird{
+    position: absolute;
+    top:680px;
+    left:1390px;
+}
+
+
+
+@media  (max-width: 1120px) {
+    
+    .text-user{
+        position: absolute;
+        left:100px;
+    }
+
+}
+
+
+@media  (max-width: 760px) {
+    
+    .text-user{
+        position: absolute;
+        left:30px;
+    }
+
+}
+
